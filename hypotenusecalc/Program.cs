@@ -17,12 +17,12 @@ namespace trianglehw
             side1 = getInt("Enter the Length of Side 1: ");
 
 
-            //read in the gallons
+            //read in side 2
             Console.WriteLine("Enter the Length of Side 2: ");
             temp = Console.ReadLine();
             side2 = Double.Parse(temp);
 
-            //compute mpg
+            //calculate the hypotenuse
             hypt = Math.Sqrt(side1 * side1 + side2 * side2);
             Console.WriteLine("The Hypotenuse of Your Triangle Is " + hypt);
 
